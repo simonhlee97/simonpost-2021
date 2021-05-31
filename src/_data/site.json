@@ -1,8 +1,8 @@
 {
-  "site_name": "Starter",
-  "title": "Eleventy Starter Boilerplate",
-  "description": "Starter code for your 11ty blog Boilerplate",
-  "url": "https://example.com",
+  "site_name": "SimonPost.com",
+  "title": "S I M O N P O S T",
+  "description": "Everyday life in Korea, minus the K-Pop, plastic surgery, and perfection.",
+  "url": "https://simonpost.com",
   "locale": "en",
-  "author": "Anonymous"
+  "author": "Simon"
 }

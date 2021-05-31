@@ -9,7 +9,6 @@ a:hover {
 }
 
 @tailwind components;
-
 @tailwind utilities;
 
 .content {
@@ -83,4 +82,35 @@ a:hover {
 
 .content th {
   @apply bg-gray-100;
+}
+
+/* my css */
+/* mobile screens */
+body {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.nav-container {
+  text-align: center;
+}
+
+/* ipads and tablet (481-768) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .nav-container {
+    text-align: center;
+  }
+}
+
+/* laptops (769 - ...) */
+@media only screen and (min-width: 769px) {
+  .nav-container {
+    text-align: start;
+  }
+}
+.nav-item {
+  margin: 0 2em;
 }

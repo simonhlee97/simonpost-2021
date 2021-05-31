@@ -69,27 +69,53 @@
           <h1 class="font-semibold text-3xl text-gray-800"><%= site.title %></h1>
           <div class="text-xl"><%= site.description %></div>
         </div>
+        <nav class="text-center">
+          <ul>
+            <li>
+              <a class="text-gray-700 border-none hover:no-underline hover:text-gray-800" href="/"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h18v-10h3zm-5 8h-14v-10.26l7-6.912 7 6.99v10.182zm-5-1h-4v-6h4v6z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-gray-700 border-none hover:no-underline hover:text-gray-800"
+                href="/about/"
+              >
+                About
+              </a>
+            </li>
+          </ul>
 
-        <div class="nav-container">
-          <a
-            class="nav-item text-gray-700 border-none hover:underline hover:text-gray-800"
-            href="/"
-          >
-            Home
-          </a>
-          <a
-            class="nav-item text-gray-700 border-none hover:underline hover:text-gray-800"
-            href="/about/"
-          >
-            About
-          </a>
-        </div>
+          <ul class="flex flex-wrap text-xl">
+            <li class="mr-6">
+              <a class="text-gray-700 border-none hover:no-underline hover:text-gray-800" href="/"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h18v-10h3zm-5 8h-14v-10.26l7-6.912 7 6.99v10.182zm-5-1h-4v-6h4v6z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="mr-6">
+              <a
+                class="text-gray-700 border-none hover:no-underline hover:text-gray-800"
+                href="/about/"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <div class="text-xl py-5"><%- content %></div>
 
       <div class="border-t border-gray-300 text-center py-8">
-        <a href="https://simonpost.com">&copy; 2021 SimonPost.com</a>
+        <a href="https://simonpost.com">SimonPost.com</a>
       </div>
     </div>
   </body>
