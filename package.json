@@ -63,5 +63,8 @@
     "*.json": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2"
   }
 }
